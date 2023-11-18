@@ -1,0 +1,54 @@
+# 网站设置
+baseURL = 'https://wvstu.me/'
+languageCode = 'en-us'
+title = 'WVSTU'
+theme = 'PaperMod'
+
+# 自动检测是否包含 中文日文韩文
+hasCJKLanguage = true
+
+enableInlineShortcodes = true #是否内联短码
+enableEmoji = true            # 是否使用 Emoji 表情
+enableRobotsTXT = false       # 是否爬虫抓取到搜索引擎
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+[params.assets]
+favicon = '/images/ico/favicon.ico'
+favicon16x16 = "/images/ico/favicon-16x16.png"
+favicon32x32 = "/images/ico/favicon-32x32.png"
+apple_touch_icon = "/images/ico/apple-touch-icon.png"
+
+[params.profileMode]
+enabled = true
+title = 'Hi there 👋'
+subtitle = '🔨 Under construction'
+imageUrl = '/images/ico/android-chrome-512x512.png'
+imageTitle = 'Meow'
+imageWidth = 150
+imageHeight = 150
+
+[menu]
+[[menu.main]]
+identifier = "Archive"
+name = "Archive"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
+identifier = "Tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "Search"
+name = "Search"
+url = "/search/"
+weight = 30
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
