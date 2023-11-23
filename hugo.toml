@@ -18,9 +18,9 @@ minifyOutput = true
 [params]
 [params.assets]
 favicon = '/images/ico/favicon.ico'
-favicon16x16 = "/images/ico/favicon-16x16.png"
-favicon32x32 = "/images/ico/favicon-32x32.png"
-apple_touch_icon = "/images/ico/apple-touch-icon.png"
+favicon16x16 = '/images/ico/favicon-16x16.png'
+favicon32x32 = '/images/ico/favicon-32x32.png'
+apple_touch_icon = '/images/ico/apple-touch-icon.png'
 
 [params.profileMode]
 enabled = true
@@ -33,22 +33,22 @@ imageHeight = 150
 
 [menu]
 [[menu.main]]
-identifier = "Archive"
-name = "Archive"
-url = "/archives/"
+identifier = 'Archive'
+name = 'Archive'
+url = '/archives/'
 weight = 10
 
 [[menu.main]]
-identifier = "Tags"
-name = "Tags"
-url = "/tags/"
+identifier = 'Tags'
+name = 'Tags'
+url = '/tags/'
 weight = 20
 
 [[menu.main]]
-identifier = "Search"
-name = "Search"
-url = "/search/"
+identifier = 'Search'
+name = 'Search'
+url = '/search/'
 weight = 30
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ['HTML', 'RSS', 'JSON']
