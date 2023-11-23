@@ -33,19 +33,19 @@ imageHeight = 150
 
 [menu]
 [[menu.main]]
-identifier = 'Archive'
+identifier = 'archive'
 name = 'Archive'
 url = '/archives/'
 weight = 10
 
 [[menu.main]]
-identifier = 'Tags'
+identifier = 'tags'
 name = 'Tags'
 url = '/tags/'
 weight = 20
 
 [[menu.main]]
-identifier = 'Search'
+identifier = 'search'
 name = 'Search'
 url = '/search/'
 weight = 30
