@@ -17,16 +17,16 @@ minifyOutput = true
 
 [params]
 [params.assets]
-favicon = '/images/ico/favicon.ico'
-favicon16x16 = '/images/ico/favicon-16x16.png'
-favicon32x32 = '/images/ico/favicon-32x32.png'
-apple_touch_icon = '/images/ico/apple-touch-icon.png'
+favicon = '/images/logo/favicon.ico'
+favicon16x16 = '/images/logo/favicon-16x16.png'
+favicon32x32 = '/images/logo/favicon-32x32.png'
+apple_touch_icon = '/images/logo/apple-touch-icon.png'
 
 [params.profileMode]
 enabled = true
 title = 'Hi there 👋'
 subtitle = '🔨 Under construction'
-imageUrl = '/images/ico/android-chrome-512x512.png'
+imageUrl = '/images/logo/android-chrome-512x512.png'
 imageTitle = 'Meow'
 imageWidth = 150
 imageHeight = 150
