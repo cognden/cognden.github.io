@@ -1,7 +1,7 @@
 +++
 title = '使用 Hugo 创建一个网站'
 date = 2023-12-09T17:46:42+08:00
-draft = true
+draft = false
 +++
 
 使用 Hugo 创建网站大致可分为三步：
