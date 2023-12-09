@@ -1,6 +1,6 @@
 # 网站设置
 baseURL = 'https://wvstu.me/'
-languageCode = 'en-us'
+languageCode = 'zh-CN'
 title = 'WVSTU'
 theme = 'PaperMod'
 
@@ -12,43 +12,47 @@ enableEmoji = true            # 是否使用 Emoji 表情
 enableRobotsTXT = false       # 是否爬虫抓取到搜索引擎
 
 [minify]
-disableXML = true
-minifyOutput = true
+    disableXML = true
+    minifyOutput = true
 
 [params]
-[params.assets]
-favicon = '/images/logo/favicon.ico'
-favicon16x16 = '/images/logo/favicon-16x16.png'
-favicon32x32 = '/images/logo/favicon-32x32.png'
-apple_touch_icon = '/images/logo/apple-touch-icon.png'
+    [params.assets]
+        favicon = '/images/logo/favicon.ico'
+        favicon16x16 = '/images/logo/favicon-16x16.png'
+        favicon32x32 = '/images/logo/favicon-32x32.png'
+        apple_touch_icon = '/images/logo/apple-touch-icon.png'
+    [params.homeInfoParams]
+        title = '嗨，你好 👋'
+        content = '欢迎来到我的个人网站，这里记录了我在学习和工作中的一些经验和心得，欢迎阅读。'
 
-[params.profileMode]
-enabled = true
-title = 'Hi there 👋'
-subtitle = '🔨 Under construction'
-imageUrl = '/images/logo/android-chrome-512x512.png'
-imageTitle = 'Meow'
-imageWidth = 150
-imageHeight = 150
+# 以下内容目前停用
+        # [params.profileMode]
+        # enabled = true
+        # title = 'Hi there 👋'
+        # subtitle = '🔨 Under construction'
+        # imageUrl = '/images/logo/android-chrome-512x512.png'
+        # imageTitle = 'Meow'
+        # imageWidth = 150
+        # imageHeight = 150
 
-[menu]
-[[menu.main]]
-identifier = 'archive'
-name = 'Archive'
-url = '/archives/'
-weight = 10
+# [menu]
+# [[menu.main]]
+# identifier = 'archive'
+# name = 'Archive'
+# url = '/archives/'
+# weight = 10
 
-[[menu.main]]
-identifier = 'tags'
-name = 'Tags'
-url = '/tags/'
-weight = 20
+# [[menu.main]]
+# identifier = 'tags'
+# name = 'Tags'
+# url = '/tags/'
+# weight = 20
 
-[[menu.main]]
-identifier = 'search'
-name = 'Search'
-url = '/search/'
-weight = 30
+# [[menu.main]]
+# identifier = 'search'
+# name = 'Search'
+# url = '/search/'
+# weight = 30
 
-[outputs]
-home = ['HTML', 'RSS', 'JSON']
+# [outputs]
+# home = ['HTML', 'RSS', 'JSON']
